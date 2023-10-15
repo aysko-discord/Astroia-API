@@ -74,6 +74,7 @@ Vérifiez l'état du serveur API.
 
 
 # Contribution
+Chat-GPT (pour aider sur certain bug mais en grande partie dev par moi) 
 N'hésitez pas à contribuer à ce projet en rejoignant le serveur Discord d'Astroia : https://discord.gg/astroia.
 
 # Licence
