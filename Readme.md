@@ -25,7 +25,7 @@ Assurez-vous que SQLite est configuré avec un fichier de base de données nomm�
 Pour démarrer le serveur API, exécutez la commande suivante :
 
 ```js
-node index.js
+node app.js
 ```
 
 L'API sera accessible à l'adresse `http://localhost:PORT` (remplacez `PORT` par le numéro de port spécifié dans le fichier `config.js`).
