@@ -13,7 +13,7 @@ Avant de commencer, assurez-vous d'avoir satisfait aux exigences suivantes :
 Pour installer Astroia API, suivez ces étapes :
 
 ```yml
-git clone https://github.com/votre-nom-utilisateur/astroia-api.git
+git clone https://github.com/sown-discord/astroia-api.git
 cd astroia-api
 npm install
 ```
