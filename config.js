@@ -1,8 +1,15 @@
 module.exports = {
-    token: 'token', // ==> Token du bot
-    panel: 'localhost', //==> localhost quand sur pc mais sur un hébergeur mettre l'ip
-    port: '3000', // ==> Mettre le panel port donc sur un vps mettre le port assosier 
-    version: 'v0.0.6', //-> Version de l'api
-    channelprevname: '', // ==> Channel des prevname
-    channelstart: "" // ==> Channel du message de start
-}
+  "token": "token",
+  "botid": "id",
+  "développeurs": [
+    "648236998657835047",
+    "1095592017121251400"
+  ],
+  "color": "#2300ff",
+  "panel": "51.255.215.122",
+  "port": "30140",
+  "version": "v0.0.1",
+  "versionapi": "V1.3.5",
+  "channelprevname": "1131030783050657844",
+  "channelstart": "1131030783050657844"
+};
