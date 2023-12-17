@@ -74,10 +74,10 @@ app.listen(PORT, () => {
 
 
 client.on('ready', () => {
-  console.log(`API - Prevname connecté sur ${client.user.tag}`);
+  console.log(`Bot em ligneej tant que ${client.user.tag}`);
   console.log(`Slash Commande : ${client.slashCommands.size}`)
   start(client)
-  client.user.setPresence({ activities: [{ name: "API - Prevname", type: ActivityType.Streaming, url: "https://twitch.tv/oni145" }] })
+  client.user.setPresence({ activities: [{ name: "API - Helix", type: ActivityType.Streaming, url: "https://twitch.tv/aysko" }] })
 });
 
 
