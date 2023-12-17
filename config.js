@@ -1,15 +1,15 @@
 module.exports = {
-  "token": "token",
-  "botid": "id",
+  "token": "",
+  "botid": "1185770112456867850",
   "développeurs": [
-    "648236998657835047",
-    "1095592017121251400"
+    "897786818945228810",
+    "1006950980241330236"
   ],
-  "color": "#2300ff",
-  "panel": "",
+  "color": "#5862F2",
+  "panel": "212.192.29.184",
   "port": "30140",
-  "version": "v0.0.1",
-  "versionapi": "V1.3.5",
-  "channelprevname": "1131030783050657844",
-  "channelstart": "1131030783050657844"
+  "version": "v1.0.0",
+  "versionapi": "V1.0.0",
+  "channelprevname": "1185770374160449616",
+  "channelstart": "1185770374160449616"
 };
