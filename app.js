@@ -74,7 +74,7 @@ app.listen(PORT, () => {
 
 
 client.on('ready', () => {
-  console.log(`Bot em ligneej tant que ${client.user.tag}`);
+  console.log(`Bot en ligne en tant que ${client.user.tag}`);
   console.log(`Slash Commande : ${client.slashCommands.size}`)
   start(client)
   client.user.setPresence({ activities: [{ name: "API - Helix", type: ActivityType.Streaming, url: "https://twitch.tv/aysko" }] })
@@ -82,7 +82,7 @@ client.on('ready', () => {
 
 
 ['slash'].forEach((handler) => {
-  const file = require(`./Handler/${handler}`)
+  const file = require(`/root/api/Handler/${handler}`)
   if (file.execute) file.execute(client);
   else file(client);
 });
